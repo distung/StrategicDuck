@@ -1,0 +1,3 @@
+SQUARE_SIZE = 29
+MUSIC = True
+SOUND = True

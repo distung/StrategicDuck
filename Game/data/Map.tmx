@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="TOWNBOT2" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNBOT2.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="193" name="TOWNDOOR" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNDOOR.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="385" name="TOWNJNT" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNJNT.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="577" name="TOWNJNT2" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNJNT2.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="769" name="TOWNSHD1" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNSHD1.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="961" name="TOWNTOP" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNTOP.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="1153" name="TOWNWIN" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNWIN.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="1345" name="TREE" tilewidth="40" tileheight="40">
+  <image source="Graphics/TREE.GIF" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="1537" name="VILDAM" tilewidth="40" tileheight="40">
+  <image source="Graphics/VILDAM.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="1729" name="VILFLR" tilewidth="40" tileheight="40">
+  <image source="Graphics/VILFLR.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="1921" name="VILINT" tilewidth="40" tileheight="40">
+  <image source="Graphics/VILINT.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="2113" name="VILSHD" tilewidth="40" tileheight="40">
+  <image source="Graphics/VILSHD.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="2305" name="_BACKUP_" tilewidth="40" tileheight="40">
+  <image source="Graphics/_BACKUP_.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="2497" name="BENCH" tilewidth="40" tileheight="40">
+  <image source="Graphics/BENCH.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="2689" name="BENCH" tilewidth="40" tileheight="40">
+  <image source="Graphics/BENCH.GIF" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="2881" name="CLIFFVEG" tilewidth="40" tileheight="40">
+  <image source="Graphics/CLIFFVEG.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="3073" name="CLIFSHD" tilewidth="40" tileheight="40">
+  <image source="Graphics/CLIFSHD.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="3265" name="CLIFVEG2" tilewidth="40" tileheight="40">
+  <image source="Graphics/CLIFVEG2.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="3457" name="ENCINT" tilewidth="40" tileheight="40">
+  <image source="Graphics/ENCINT.GIF" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="3649" name="FENCDAM" tilewidth="40" tileheight="40">
+  <image source="Graphics/FENCDAM.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="3841" name="FENCE" tilewidth="40" tileheight="40">
+  <image source="Graphics/FENCE.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="4033" name="FENCSHD1" tilewidth="40" tileheight="40">
+  <image source="Graphics/FENCSHD1.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="4225" name="FENCSHD2" tilewidth="40" tileheight="40">
+  <image source="Graphics/FENCSHD2.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="4417" name="GRS2ROC" tilewidth="40" tileheight="40">
+  <image source="Graphics/GRS2ROC.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="4609" name="INVEN3" tilewidth="40" tileheight="40">
+  <image source="Graphics/INVEN3.TIF" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="4769" name="KITCHEN" tilewidth="40" tileheight="40">
+  <image source="Graphics/KITCHEN.GIF" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="4961" name="PAVE" tilewidth="40" tileheight="40">
+  <image source="Graphics/PAVE.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="5153" name="RUIN" tilewidth="40" tileheight="40">
+  <image source="Graphics/RUIN.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="5345" name="TABLE1" tilewidth="40" tileheight="40">
+  <image source="Graphics/TABLE1.GIF" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="5537" name="TEST5B" tilewidth="40" tileheight="40">
+  <image source="Graphics/TEST5B.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="5729" name="TEST6" tilewidth="40" tileheight="40">
+  <image source="Graphics/TEST6.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="5921" name="TEST7B" tilewidth="40" tileheight="40">
+  <image source="Graphics/TEST7B.bmp" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="6113" name="TOWNBOT" tilewidth="40" tileheight="40">
+  <image source="Graphics/TOWNBOT.bmp" width="640" height="480"/>
+ </tileset>
+ <layer name="MainLayer" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJyt12dv1DAcx/F7C/fIj9l77733EntXopSypLJ3WUcpUITYe0gcpUB7tGwKx94byt7wUvhajXU+107S0gcfXZUm/tn/JLZTR0QidVEP9dEADdEIjdEETdEMzdECLdHKcUxqjTnRSCQTeQHacG5btEN7dEBHdEJndEFXdEN39EBP9HIck3ojK0R2Mfpwbl/0Q38MwEAMwmAMwVAMw3CMEOlt5HrHRmKUZ2tAZqGnCKM5fwzGYhzGYwImYhImYwqmYhqmI0Ok5+eK4LGqbJlZJlJmIBMzZc0wC9mYLe8h5mIe5otUlk2GTx+KtfHKzCRKvPxFWIwlWIplWI4VWIlVWI01WtY6S/4CLBSp2hYadS4RKUnt742IYZPsPzYjH1vkfcQ2FCBu1Nu0HhtQKqpm+dmNPdiLfdiPAziIQziMI16t4pbayuwd2IldRrZLUvs9KdvFKVk7nEYRzuAszqFYe17ilvoe5/gJnxy/WlzEJVzGFVzFNVxHOW7gpnduQqQ/u4renivb1Yf7eICHeITHeIKneIbneOHIdfXFNXZbfgXe4wM+4hM+4wu+Igf50fD51VWh0fsg73OOJV+Npzayk0a+ouZ8W76qW03zzOfAlq/mfFt+bYzZvP8mNeeb+eaz/L/Zkt+aEzR+/Z3Tj4ed+yS/NUfO+WtRQH52tOq4g95t852znR9mzVF9CDMesy9Bc7HfmrPdy5byjBqEGXsYfmvOURzT8vOj7rnVnPdcdTGv8Vtz1LWxaGUfiqL2GuvHqvtOmGuObKtUU+Lly/EXRFMZrvGUab/VodYcW7sxbb3PrqW5IOwcYearucB2Xk3y5DdCls+4XPm282pS+5jRrq3toHxVg4So+jwGrVeybbX/C+qjq/4Jg/luuPZNkr7/c83z8ZD1V/m2fqn/nxeV75Vs44JI3/+Z3ybl2vNhfr/Y3j09PyGq7h9v4Tbu4C7uCfv+T+Wr/V+e8f3iGr/eF/Xtq/aPL/EKr/EGb/FOBO//vuG75Z4EzevqmVHX/8BP/MJv/MFf/AMhzM9Y
+  </data>
+ </layer>
+</map>
