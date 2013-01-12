@@ -128,21 +128,28 @@ def newgame():
         elif keyPressed == pyglet.window.key.SPACE:
             person.stop()
 
-            x = 0
-            y = 0
+            position = [50, 50]
+            height = 50
 
-            if keyboard[key.UP] or keyboard[key.DOWN]:
+            if keyboard[key.UP]:
                 if keyboard[key.LEFT]:
-                    x = 50
-                    y = -75
+                    position = [-75, 75]
+                elif keyboard[key.RIGHT]:
+                    position = [75, 75]
                 else:
-                    x = 50
-                    y = 75
+                    position = [0, 75]
+            elif keyboard[key.DOWN]:
+                if keyboard[key.LEFT]:
+                    position = [-75, -75]
+                elif keyboard[key.RIGHT]:
+                    position = [75, -75]
+                else:
+                    position = [0, -75]
             elif keyboard[key.LEFT]:
-                x = 50                y =  -75
-            else:                x = 50                y = 75
+                position = [-75, 0]
+            elif keyboard[key.RIGHT]:                position = [75, 0]
 
-            person.do(Jump(x, y, 1, .25))
+            person.do(JumpBy(position, height, 1, .25))
             person.do(MovePerson())
 
     director.window.push_handlers(on_key_press)
