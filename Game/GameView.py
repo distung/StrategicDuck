@@ -58,8 +58,6 @@ class GameView( Layer ):
         super(GameView,self).on_exit()
         #soundex.stop_music()
 
-
-
 #MOVE THIS LATER
 # handle input and movement
 class MovePerson(Move):
@@ -116,17 +114,37 @@ def newgame():
     #Scene
     scene = Scene(scroller)
 
+    #Handle movements
     keyboard = key.KeyStateHandler()
     director.window.push_handlers(keyboard)
 
-    def on_key_press(key, modifier):
-        if key == pyglet.window.key.Z:
+    #Handle other key actions
+    def on_key_press(keyPressed, modifier):
+        if keyPressed == pyglet.window.key.Z:
             if scroller.scale == .75:
                 scroller.do(actions.ScaleTo(1, 2))
             else:
                 scroller.do(actions.ScaleTo(.75, 2))
-        elif key == pyglet.window.key.D:
-            mainLayer.set_debug(True)
+        elif keyPressed == pyglet.window.key.SPACE:
+            person.stop()
+
+            x = 0
+            y = 0
+
+            if keyboard[key.UP] or keyboard[key.DOWN]:
+                if keyboard[key.LEFT]:
+                    x = 50
+                    y = -75
+                else:
+                    x = 50
+                    y = 75
+            elif keyboard[key.LEFT]:
+                x = 50                y =  -75
+            else:                x = 50                y = 75
+
+            person.do(Jump(x, y, 1, .25))
+            person.do(MovePerson())
+
     director.window.push_handlers(on_key_press)
 
     return scene
