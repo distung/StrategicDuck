@@ -101,29 +101,32 @@ def newgame():
     global keyboard, scroller
 
     #Person
+    personLayer = ScrollableLayer()
     person = cocos.sprite.Sprite('data/PlanetCute/Character Boy.png')
+    personLayer.add(person)
     person.position = (200, 100)
     person.do(MovePerson())
 
     #Layer
-    mainLayer = cocos.tiles.load_tmx('Map.tmx')['MainLayer']
-    mainLayer.add(person)
     scroller = ScrollingManager()
+    mainLayer = cocos.tiles.load_tmx('Map.tmx')['MainLayer']
     scroller.add(mainLayer)
+    scroller.add(personLayer)
+
+    #Scene
+    scene = Scene(scroller)
 
     keyboard = key.KeyStateHandler()
     director.window.push_handlers(keyboard)
 
-    #def on_key_press(key, modifier):
-    #    if key == pyglet.window.key.SPACE:
-    #        person.stop()
-    #        #person.do(JumpPerson)
-    #    else:
-    #        person.do(MovePerson())
-    #director.window.push_handlers(on_key_press)
-
-    #Scene
-    scene = Scene(scroller)
-    scene.add( mainLayer, z=3)
+    def on_key_press(key, modifier):
+        if key == pyglet.window.key.Z:
+            if scroller.scale == .75:
+                scroller.do(actions.ScaleTo(1, 2))
+            else:
+                scroller.do(actions.ScaleTo(.75, 2))
+        elif key == pyglet.window.key.D:
+            mainLayer.set_debug(True)
+    director.window.push_handlers(on_key_press)
 
     return scene

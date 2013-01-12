@@ -57,9 +57,9 @@ class MainMenu ( Menu ):
 
     def on_new_game(self):
         import GameView
-        director.push( FadeTransition(GameView.newgame(), 1.0 ) )
+        director.push( FadeTransition(GameView.newgame(), .5 ) )
         Sound.set_music('mario theme - tokyo symphonic orchestra.mp3')
-        Sound.play_music()
+        #Sound.play_music()
 
     def on_load_game(self):
         import gameview
@@ -142,7 +142,9 @@ if __name__ == "__main__":
     pyglet.resource.reindex()
     font.add_directory('data')
 
-    director.init( resizable=True,fullscreen=True)#, width=960, height=540)
+    director.init( resizable=True,
+                  fullscreen=False,
+                  width=960, height=540)
     scene = Scene()
     scene.add( MultiplexLayer(
                     MainMenu(),
