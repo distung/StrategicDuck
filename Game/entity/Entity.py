@@ -1,5 +1,5 @@
-class Hero(object):
-    """The hero we need, not the hero we deserve"""
+class Entity(object):
+    """base entity class"""
     def __init___(self, components = none):
         if components:
             self.components = components
