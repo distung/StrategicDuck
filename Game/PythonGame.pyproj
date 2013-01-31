@@ -24,13 +24,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Background.py" />
+    <Compile Include="component\FightStats.py" />
+    <Compile Include="component\position.py" />
     <Compile Include="Constants.py" />
+    <Compile Include="entity\Entity.py" />
     <Compile Include="Game.py" />
     <Compile Include="GameView.py" />
     <Compile Include="Sound.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
+    <Folder Include="entity\" />
+    <Folder Include="component\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
