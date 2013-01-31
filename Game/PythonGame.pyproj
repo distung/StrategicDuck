@@ -25,7 +25,8 @@
   <ItemGroup>
     <Compile Include="Background.py" />
     <Compile Include="component\FightStats.py" />
-    <Compile Include="component\position.py" />
+    <Compile Include="component\Movement.py" />
+    <Compile Include="component\Position.py" />
     <Compile Include="Constants.py" />
     <Compile Include="entity\Entity.py" />
     <Compile Include="Game.py" />
