@@ -1,5 +1,3 @@
-from collections import deque
-
 class turn_system(object):
     """description of class"""
 
