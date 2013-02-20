@@ -28,15 +28,19 @@
     <Compile Include="component\Movement.py" />
     <Compile Include="component\Position.py" />
     <Compile Include="Constants.py" />
+    <Compile Include="entity\Character.py" />
     <Compile Include="entity\Entity.py" />
     <Compile Include="Game.py" />
+    <Compile Include="GameController.py" />
     <Compile Include="GameView.py" />
     <Compile Include="Sound.py" />
+    <Compile Include="system\turn_system.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="entity\" />
     <Folder Include="component\" />
+    <Folder Include="system\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
