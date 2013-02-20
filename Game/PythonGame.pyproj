@@ -32,11 +32,13 @@
     <Compile Include="Game.py" />
     <Compile Include="GameView.py" />
     <Compile Include="Sound.py" />
+    <Compile Include="system\turn_system.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="entity\" />
     <Folder Include="component\" />
+    <Folder Include="system\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
