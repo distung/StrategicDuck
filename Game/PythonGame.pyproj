@@ -34,6 +34,7 @@
     <Compile Include="GameController.py" />
     <Compile Include="GameView.py" />
     <Compile Include="Sound.py" />
+    <Compile Include="system\movement_system.py" />
     <Compile Include="system\turn_system.py" />
   </ItemGroup>
   <ItemGroup>
