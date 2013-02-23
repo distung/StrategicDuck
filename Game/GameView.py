@@ -147,7 +147,8 @@ def newgame():
                     position = [0, -75]
             elif keyboard[key.LEFT]:
                 position = [-75, 0]
-            elif keyboard[key.RIGHT]:                position = [75, 0]
+            elif keyboard[key.RIGHT]:
+                position = [75, 0]
 
             person.do(JumpBy(position, height, 1, .25))
             person.do(MovePerson())
